@@ -1,0 +1,26 @@
+{
+  "name": "qod",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "start": "node index.js"
+    "test": "node test.js"
+	
+	
+	"ng": "ng",
+    "build": "ng build --prod",
+    "start": "ng serve",
+    "test": "ng test",
+    "lint": "tslint ./src/**/*.ts -t verbose",
+    "e2e": "ng e2e"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "boxen": "^4.0.0",
+    "chalk": "^4.1.0"
+  }
+}
